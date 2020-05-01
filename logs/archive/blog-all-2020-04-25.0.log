@@ -1,0 +1,1045 @@
+2020-04-25 00:03:48.956 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarting:55 -Starting VueBlogApplication on DESKTOP-UBAL805 with PID 24748 (E:\workSpace\idea_workspace\vue_blog\target\classes started by kxingyi in E:\workSpace\idea_workspace\vue_blog)
+2020-04-25 00:03:48.962 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:03:48.963 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-25 00:03:49.783 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:03:49.784 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-25 00:03:49.811 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 23ms. Found 0 MongoDB repository interfaces.
+2020-04-25 00:03:49.824 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:03:49.825 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-25 00:03:49.837 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-25 00:03:50.117 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.199 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.kxingyi.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$f86dfca4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.238 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.250 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d8987472] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.253 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$bf7018b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.257 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-25 00:03:50.302 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.318 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:50.340 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.102 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-25 00:03:51.103 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.168 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.347 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.353 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.361 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.365 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.366 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.kxingyi.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.368 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.kxingyi.blog.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.370 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.kxingyi.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.401 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.423 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:03:51.685 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 9000 (http)
+2020-04-25 00:03:51.692 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:03:51.693 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-25 00:03:51.693 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-25 00:03:51.769 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-25 00:03:51.769 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2761 ms
+2020-04-25 00:03:53.079 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-25 00:03:53.079 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 127.0.0.1:27017 to client view of cluster
+2020-04-25 00:03:53.144 INFO  [cluster-ClusterId{value='5ea30de95d236a28e7e04a2e', description='null'}-127.0.0.1:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:64}] to 127.0.0.1:27017
+2020-04-25 00:03:53.147 INFO  [cluster-ClusterId{value='5ea30de95d236a28e7e04a2e', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 2]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1363600}
+2020-04-25 00:03:53.149 INFO  [cluster-ClusterId{value='5ea30de95d236a28e7e04a2e', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2020-04-25 00:03:53.929 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:120 -Context refreshed
+2020-04-25 00:03:53.937 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:123 -Found 1 custom documentation plugin(s)
+2020-04-25 00:03:53.945 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:44 -Scanning for api listing references
+2020-04-25 00:03:54.015 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:03:54.018 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:03:54.088 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:03:54.130 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-04-25 00:03:54.135 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarted:61 -Started VueBlogApplication in 5.696 seconds (JVM running for 6.395)
+2020-04-25 00:04:41.324 INFO  [http-nio-9000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 00:04:41.324 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-25 00:04:41.335 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 11 ms
+2020-04-25 00:05:24.836 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:05:24.836 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:05:24.837 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:24.839 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:05:24.840 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:05:24.931 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:05:24.953 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:05:24.975 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:05:24.979 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 143
+2020-04-25 00:05:24.981 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"DAD5A2B4460E2B6AB21F7B9D49B6561F"},"msg":"操作成功！"}
+2020-04-25 00:05:24.985 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:24.988 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 143(Long), {"code":200,"data":{"token":"DAD5A2B4460E2B6AB21F7B9D49B6561F"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:24.995 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:05:30.994 WARN  [http-nio-9000-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-25 00:05:31.002 ERROR [http-nio-9000-exec-4]o.a.c.c.C.[Tomcat].[localhost].[/].[dispatcherServlet].log:175 -Servlet.service() for servlet [dispatcherServlet] threw exception
+org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.kxingyi.blog.utils.ShiroUtils.getSessionId(ShiroUtils.java:37)
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:56)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:05:31.004 ERROR [http-nio-9000-exec-4]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].log:175 -Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
+	at org.apache.shiro.SecurityUtils.getSecurityManager(SecurityUtils.java:123)
+	at org.apache.shiro.subject.Subject$Builder.<init>(Subject.java:627)
+	at org.apache.shiro.SecurityUtils.getSubject(SecurityUtils.java:56)
+	at com.kxingyi.blog.utils.ShiroUtils.getSessionId(ShiroUtils.java:37)
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:56)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2020-04-25 00:05:41.673 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:05:41.685 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:05:41.686 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:05:41.689 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:05:41.706 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:05:41.707 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:05:41.710 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:05:41.711 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 38
+2020-04-25 00:05:41.711 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:05:41.714 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:41.715 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 38(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:41.719 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:05:56.999 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:05:57.000 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:05:57.000 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:57.001 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:05:57.001 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:05:57.014 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:05:57.014 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:05:57.017 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:05:57.017 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 18
+2020-04-25 00:05:57.023 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:05:57.027 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:57.029 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 18(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:57.032 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:00.239 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:00.241 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:00.245 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:00.246 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:00.248 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:00.248 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:06:00.249 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:00.252 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:00.253 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:00.257 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:01.263 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:01.268 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:01.269 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:01.271 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:01.272 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:06:01.273 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:01.279 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:01.280 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:01.287 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:13.624 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:13.630 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:13.631 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:13.634 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:13.634 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 10
+2020-04-25 00:06:13.635 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:13.640 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:13.641 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 10(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:13.646 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:33.992 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:06:33.992 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:06:33.997 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:06:33.997 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:06:33.999 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:06:34.004 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:06:34.005 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:06:34.007 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:06:34.007 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 16
+2020-04-25 00:06:34.008 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:06:34.012 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:34.013 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 16(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:34.019 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:16.516 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:16.520 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:16.520 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:16.522 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:16.526 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:16.528 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 15
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:16.534 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:16.535 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 15(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:16.539 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:18.531 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:18.531 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:18.536 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:18.536 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:18.538 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:18.543 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:18.543 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:18.545 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:18.546 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 15
+2020-04-25 00:07:18.546 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:18.549 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:18.550 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 15(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:18.554 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:19.437 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:19.440 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:19.441 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:19.442 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:19.446 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:19.446 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:19.448 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:19.449 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 13
+2020-04-25 00:07:19.449 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:19.452 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:19.453 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 13(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:19.457 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:28.434 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarting:55 -Starting VueBlogApplication on DESKTOP-UBAL805 with PID 27564 (E:\workSpace\idea_workspace\vue_blog\target\classes started by kxingyi in E:\workSpace\idea_workspace\vue_blog)
+2020-04-25 00:07:28.438 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:07:28.439 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-25 00:07:29.288 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:07:29.289 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-25 00:07:29.320 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 26ms. Found 0 MongoDB repository interfaces.
+2020-04-25 00:07:29.333 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:07:29.335 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-25 00:07:29.349 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-25 00:07:29.687 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.787 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.kxingyi.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$5f258db3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.831 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.844 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$3f500581] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.848 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$2627a9c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.851 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-25 00:07:29.901 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.916 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:29.939 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:30.744 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-25 00:07:30.745 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:30.809 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.018 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.024 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.032 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.037 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.039 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.kxingyi.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.042 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.kxingyi.blog.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.045 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.kxingyi.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.080 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.105 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:07:31.404 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 9000 (http)
+2020-04-25 00:07:31.413 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:07:31.414 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-25 00:07:31.414 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-25 00:07:31.505 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-25 00:07:31.506 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2995 ms
+2020-04-25 00:07:33.063 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-25 00:07:33.064 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 127.0.0.1:27017 to client view of cluster
+2020-04-25 00:07:33.124 INFO  [cluster-ClusterId{value='5ea30ec5a310da6a0095999c', description='null'}-127.0.0.1:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:65}] to 127.0.0.1:27017
+2020-04-25 00:07:33.128 INFO  [cluster-ClusterId{value='5ea30ec5a310da6a0095999c', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 2]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1200600}
+2020-04-25 00:07:33.129 INFO  [cluster-ClusterId{value='5ea30ec5a310da6a0095999c', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2020-04-25 00:07:34.065 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:120 -Context refreshed
+2020-04-25 00:07:34.078 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:123 -Found 1 custom documentation plugin(s)
+2020-04-25 00:07:34.088 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:44 -Scanning for api listing references
+2020-04-25 00:07:34.176 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:07:34.177 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:07:34.265 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:07:34.291 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-04-25 00:07:34.295 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarted:61 -Started VueBlogApplication in 6.473 seconds (JVM running for 7.356)
+2020-04-25 00:07:37.026 INFO  [http-nio-9000-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 00:07:37.026 INFO  [http-nio-9000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-25 00:07:37.043 INFO  [http-nio-9000-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 17 ms
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:37.097 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:07:37.097 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:07:37.371 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:07:37.394 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:07:37.414 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:07:37.425 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 330
+2020-04-25 00:07:37.480 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"5EA7E4D7D33D3AAB299DF82E3C7BBFF4"},"msg":"操作成功！"}
+2020-04-25 00:07:37.484 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:37.487 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 330(Long), {"code":200,"data":{"token":"5EA7E4D7D33D3AAB299DF82E3C7BBFF4"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:37.492 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:42.164 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:42.164 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:42.175 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:42.176 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:42.178 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:42.200 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:42.200 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 40
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:42.207 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:42.208 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 40(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:42.212 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:08:13.858 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:08:13.860 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:08:17.045 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:08:17.062 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:08:17.102 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:08:56.194 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:08:56.195 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:08:56.197 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:08:56.198 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 43039
+2020-04-25 00:08:56.198 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:08:56.201 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:08:56.203 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 43039(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:08:56.207 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:11:48.197 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:11:48.199 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:11:55.583 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:11:55.597 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:11:55.634 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:13:49.131 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:13:49.131 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:13:49.133 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:13:49.134 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 122687
+2020-04-25 00:13:49.134 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:13:49.138 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:13:49.139 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 122687(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:13:49.144 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:13:58.250 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:14:07.800 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:14:07.814 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:14:07.851 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:14:58.998 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:14:58.999 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:14:59.003 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:14:59.004 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 62016
+2020-04-25 00:14:59.004 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:14:59.008 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:14:59.009 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 62016(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:14:59.015 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:14:59.075 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-04-25 00:14:59.086 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-04-25 00:15:02.173 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarting:55 -Starting VueBlogApplication on DESKTOP-UBAL805 with PID 28268 (E:\workSpace\idea_workspace\vue_blog\target\classes started by kxingyi in E:\workSpace\idea_workspace\vue_blog)
+2020-04-25 00:15:02.178 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:15:02.179 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-25 00:15:03.003 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:15:03.004 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-25 00:15:03.037 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 27ms. Found 0 MongoDB repository interfaces.
+2020-04-25 00:15:03.051 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:249 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-25 00:15:03.052 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-25 00:15:03.067 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-25 00:15:03.432 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.532 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'shiroConfig' of type [com.kxingyi.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$fd1b8ab3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.579 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.590 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$dd460281] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.595 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$c41da6c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.598 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-04-25 00:15:03.650 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.666 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:03.690 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.497 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-04-25 00:15:04.497 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.566 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.775 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.782 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.790 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.795 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.797 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminServiceImpl' of type [com.kxingyi.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.798 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'userServiceImpl' of type [com.kxingyi.blog.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.801 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'adminRealm' of type [com.kxingyi.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.837 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:04.863 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-25 00:15:05.153 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 9000 (http)
+2020-04-25 00:15:05.162 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:15:05.162 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-25 00:15:05.163 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-04-25 00:15:05.250 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-25 00:15:05.250 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3001 ms
+2020-04-25 00:15:06.808 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[127.0.0.1:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-25 00:15:06.809 INFO  [main]org.mongodb.driver.cluster.info:71 -Adding discovered server 127.0.0.1:27017 to client view of cluster
+2020-04-25 00:15:06.866 INFO  [cluster-ClusterId{value='5ea3108aeff3c76ccfd5a411', description='null'}-127.0.0.1:27017]org.mongodb.driver.connection.info:71 -Opened connection [connectionId{localValue:1, serverValue:66}] to 127.0.0.1:27017
+2020-04-25 00:15:06.870 INFO  [cluster-ClusterId{value='5ea3108aeff3c76ccfd5a411', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 2]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1332700}
+2020-04-25 00:15:06.872 INFO  [cluster-ClusterId{value='5ea3108aeff3c76ccfd5a411', description='null'}-127.0.0.1:27017]org.mongodb.driver.cluster.info:71 -Discovered cluster type of STANDALONE
+2020-04-25 00:15:07.748 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:120 -Context refreshed
+2020-04-25 00:15:07.758 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:123 -Found 1 custom documentation plugin(s)
+2020-04-25 00:15:07.768 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:44 -Scanning for api listing references
+2020-04-25 00:15:07.858 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:15:07.859 WARN  [main]s.d.s.readers.operation.OperationImplicitParameterReader.maybeGetModelRef:88 -Coercing to be of type string. This may not even be a scalar type in actuality
+2020-04-25 00:15:07.944 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-9000"]
+2020-04-25 00:15:07.968 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 9000 (http) with context path ''
+2020-04-25 00:15:07.972 INFO  [main]com.kxingyi.blog.VueBlogApplication.logStarted:61 -Started VueBlogApplication in 6.354 seconds (JVM running for 7.212)
+2020-04-25 00:15:22.980 INFO  [http-nio-9000-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-25 00:15:22.981 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-25 00:15:22.993 INFO  [http-nio-9000-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 12 ms
+2020-04-25 00:15:26.057 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:15:26.058 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:15:26.459 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:15:26.480 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:15:26.506 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:15:26.518 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 1136
+2020-04-25 00:15:26.581 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"8732FFC181480AB016ABD189257A43B2"},"msg":"操作成功！"}
+2020-04-25 00:15:26.586 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:15:26.589 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 1136(Long), {"code":200,"data":{"token":"8732FFC181480AB016ABD189257A43B2"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:15:26.594 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:15:38.413 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:15:40.801 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:15:40.816 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:15:40.857 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:15:46.257 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET type_name = ?, enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:15:46.276 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: ssssssss(String), 1(Integer), 1(Integer), 89(Integer)
+2020-04-25 00:15:46.302 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 1
+2020-04-25 00:15:48.728 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 10874
+2020-04-25 00:15:48.728 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:15:48.732 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:15:48.733 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 10874(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:15:48.738 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:16:00.876 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:16:00.876 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:16:00.892 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:16:00.893 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:16:00.896 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:16:00.896 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 20
+2020-04-25 00:16:00.901 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":1,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:16:00.908 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:16:00.909 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 20(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":1,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:16:00.913 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:19:25.598 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:19:25.598 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 127.0.0.1
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123)]
+2020-04-25 00:19:25.604 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:19:25.604 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:19:25.606 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:19:25.613 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:19:25.614 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$e35071d3.login(<generated>)
+(String), POST(String), 0(Long), null, 127.0.0.1(String)
+2020-04-25 00:19:25.618 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:19:25.623 ERROR [http-nio-9000-exec-6]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -用户名或密码错误，请重新登陆
+com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$e35071d3.login(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:36.996 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:19:36.996 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 127.0.0.1
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:19:37.002 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:19:37.002 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:19:37.004 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:19:37.005 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:19:37.005 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"95B5FFEB6995C73F897BAE8303C37173"},"msg":"操作成功！"}
+2020-04-25 00:19:37.010 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:19:37.011 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":{"token":"95B5FFEB6995C73F897BAE8303C37173"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-04-25 00:19:37.015 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:19:45.425 ERROR [http-nio-9000-exec-9]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:48.516 ERROR [http-nio-9000-exec-2]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:48.751 ERROR [http-nio-9000-exec-7]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:48.951 ERROR [http-nio-9000-exec-5]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:49.172 ERROR [http-nio-9000-exec-8]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:49.387 ERROR [http-nio-9000-exec-10]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:19:49.580 ERROR [http-nio-9000-exec-4]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 00:20:00.324 ERROR [http-nio-9000-exec-6]com.kxingyi.blog.advice.BlogExceptionAdvice.exceptionHandler:26 -当前未登录，请重新登录！
+com.kxingyi.blog.exception.BlogException: 当前未登录，请重新登录！
+	at com.kxingyi.blog.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:65)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 01:37:15.551 INFO  [SpringContextShutdownHook]o.s.jmx.export.annotation.AnnotationMBeanExporter.doUnregister:211 -Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2020-04-25 01:37:15.558 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

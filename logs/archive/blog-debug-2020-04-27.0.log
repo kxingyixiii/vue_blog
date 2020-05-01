@@ -1,0 +1,77 @@
+2020-04-27 11:02:16.325 DEBUG [main]com.kxingyi.blog.testExcel.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 11:02:24.681 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-27 11:02:24.706 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-27 11:02:24.733 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-27 11:08:37.754 DEBUG [main]com.kxingyi.blog.testExcel.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 11:08:45.835 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-27 11:08:45.868 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-27 11:08:45.894 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-27 11:09:02.688 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 11:14:14.027 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-27 11:14:14.028 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-27 11:14:14.028 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-27 11:14:14.030 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-27 11:14:14.031 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=1, password=1)]
+2020-04-27 11:14:14.121 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-27 11:14:14.140 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: 1(String)
+2020-04-27 11:14:14.158 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-27 11:14:14.168 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-27 11:14:14.171 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=1, password=1)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b5400d97.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-27 11:14:14.175 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-27 11:16:45.142 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-27 11:16:45.142 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-27 11:16:45.143 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-27 11:16:45.143 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-27 11:16:45.143 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=1, password=1)]
+2020-04-27 11:16:45.149 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-27 11:16:45.150 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: 1(String)
+2020-04-27 11:16:45.152 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-27 11:16:45.159 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-27 11:16:45.161 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=1, password=1)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b5400d97.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-27 11:16:45.169 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-27 14:34:24.992 DEBUG [main]com.kxingyi.blog.property.PropertyUtilTest.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 15:16:47.877 DEBUG [main]com.kxingyi.blog.property.PropertyUtilTest.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 15:17:49.269 DEBUG [main]com.kxingyi.blog.property.PropertyUtilTest.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 15:19:33.134 DEBUG [main]com.kxingyi.blog.property.PropertyUtilTest.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 15:19:57.970 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 15:53:10.343 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 16:05:08.254 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 16:06:05.837 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 16:12:08.862 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 16:13:55.971 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-27 16:16:10.652 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-27 16:16:10.653 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-27 16:16:10.653 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-27 16:16:10.654 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-27 16:16:10.654 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-27 16:16:10.654 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-27 16:16:10.655 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-27 16:16:10.655 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-27 16:16:10.655 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-27 16:16:10.655 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-27 16:16:11.141 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-27 16:16:11.165 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-27 16:16:11.178 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-27 16:16:11.179 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-27 16:16:11.191 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-27 16:16:11.191 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-27 16:16:11.198 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 544
+2020-04-27 16:16:11.198 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 547
+2020-04-27 16:16:11.200 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"3047282A146CA5B4E9380A7059140FF9"},"msg":"操作成功！"}
+2020-04-27 16:16:11.200 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"5A8C4AF0B37A2DC20EEEEEE653A38574"},"msg":"操作成功！"}
+2020-04-27 16:16:11.201 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-27 16:16:11.201 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-27 16:16:11.202 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 547(Long), {"code":200,"data":{"token":"5A8C4AF0B37A2DC20EEEEEE653A38574"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-27 16:16:11.202 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 544(Long), {"code":200,"data":{"token":"3047282A146CA5B4E9380A7059140FF9"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-27 16:16:11.207 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-27 16:16:11.207 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

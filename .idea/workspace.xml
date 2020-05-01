@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b530da09-e7a6-4490-9876-213aef4c563b" name="默认更改列表" comment="初始化博客项目（idea）">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a5d98c21-072b-4c5c-b3e7-b5c45beb02f7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a5d98c21-072b-4c5c-b3e7-b5c45beb02f7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tobato_fastdfs_client_1_27_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-28.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-all-2020-04-29.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-28.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-debug-2020-04-29.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-28.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-error-2020-04-29.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-28.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-info-2020-04-29.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-22.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-24.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-25.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-28.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archive/blog-warn-2020-04-29.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/blog-all.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/blog-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/blog-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/blog-info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/blog-warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/VueBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/advice/BlogExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/aspect/RequestAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/UploadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/config/ValidationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/AboutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/LinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/SwaggerTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/dao/BlogGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/dao/CollectionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/dao/CommentGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/enums/StateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/annotation/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/constant/JavaClassConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/entity/ExcelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/entity/ExportParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/entity/ImportParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/handler/ExcelExportHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/excel/handler/ExcelImportHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/AuthorizationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/BadAttackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/BlogException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/CommonJsonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/DataAcessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/DataExportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/exception/ParamsValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/filters/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/AboutMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/CollectionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/LinkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/MusicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/About.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/BlogCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/BlogGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/CommentGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/realm/AdminRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/AboutService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/LinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/AboutServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/LinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/MusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/token/UsernamePasswordToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/DataUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/Md5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/MeargeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/ParamsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/ThreadLocalContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/cache/ExpiryMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/constants/ErrorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/model/One2Many.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/model/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/model/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/property/PropertyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/validate/BeanValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/validate/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/vo/BlogVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxingyi/blog/vo/TimeLineVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AboutMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/VueBlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/admin/adminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/link/LinkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/log/logTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/property/PropertyUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/testExcelHandler/testExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kxingyi/blog/type/TypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/vue_blog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/VueBlogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/advice/BlogExceptionAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/aspect/RequestAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/BeanConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/UploadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/config/ValidationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/AboutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/BlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/LinkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/MusicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/SwaggerTestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/TypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/dao/BlogGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/dao/CollectionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/dao/CommentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/dao/CommentGoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/enums/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/enums/StateEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/annotation/Excel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/constant/JavaClassConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/entity/ExcelEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/entity/ExportParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/entity/ImportParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/handler/ExcelExportHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/handler/ExcelImportHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/excel/handler/ExcelImportHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/AuthorizationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/BadAttackException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/BlogException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/CommonJsonException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/DataAcessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/DataExportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/exception/ParamsValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/filters/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/AboutMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/BlogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/CollectionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/LinkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/LogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/MusicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/About.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Blog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/BlogCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/BlogGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/CommentGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Link.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/realm/AdminRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/AboutService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/BlogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/LinkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/MusicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/AboutServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/LinkServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/LogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/MusicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/token/UsernamePasswordToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/DataUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/Md5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/MeargeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/ParamsUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/ReflectionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/ShiroUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/ThreadLocalContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/cache/ExpiryMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/constants/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/constants/ErrorEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/model/One2Many.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/model/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/model/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/property/CheckFileChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/property/PropertyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/validate/BeanValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/utils/validate/ValidateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/vo/BlogVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kxingyi/blog/vo/TimeLineVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AboutMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/LinkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/MusicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/vue_blog.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/VueBlogApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/admin/adminTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/link/LinkTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/log/logTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/property/PropertyUtilTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/testExcelHandler/testExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/kxingyi/blog/type/TypeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_blog.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_about: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_admin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_blog: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_comment: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_link: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_log: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_music: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bl_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MAVEN_REP" />
+        <option name="mavenHome" value="D:/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1aptx3sOazIPdCDgG0gRKQ5UoUg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kxingyi.blog.controller" />
+      <recent name="com.kxingyi.blog.config" />
+      <recent name="com.kxingyi.blog.testExcelHandler" />
+      <recent name="com.kxingyi.blog.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workSpace\idea_workspace\vue_blog\src\main\java\com\kxingyi\blog\utils" />
+      <recent name="E:\workSpace\idea_workspace\vue_blog\src\main\java\com\kxingyi\blog\exception" />
+      <recent name="E:\workSpace\idea_workspace\vue_blog\src\main\java\com\kxingyi\blog" />
+      <recent name="E:\workSpace\idea_workspace\vue_blog\src\main\java\com\kxingyi\blog\controller" />
+      <recent name="E:\workSpace\idea_workspace\vue_blog\src\main\java\com\kxingyi\blog\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VueBlogApplication">
+    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kxingyi.blog.utils.IdWorker" />
+      <module name="vue_blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxingyi.blog.utils.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kxingyi.blog.utils.SnowFlake" />
+      <module name="vue_blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxingyi.blog.utils.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkTest.testSaveLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vue_blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxingyi.blog.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxingyi.blog.link" />
+      <option name="MAIN_CLASS_NAME" value="com.kxingyi.blog.link.LinkTest" />
+      <option name="METHOD_NAME" value="testSaveLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyUtilTest.testPropertyUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vue_blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxingyi.blog.property.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxingyi.blog.property" />
+      <option name="MAIN_CLASS_NAME" value="com.kxingyi.blog.property.PropertyUtilTest" />
+      <option name="METHOD_NAME" value="testPropertyUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="logTest.testDeleteLogByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vue_blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxingyi.blog.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxingyi.blog.log" />
+      <option name="MAIN_CLASS_NAME" value="com.kxingyi.blog.log.logTest" />
+      <option name="METHOD_NAME" value="testDeleteLogByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VueBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vue_blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kxingyi.blog.VueBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.logTest.testDeleteLogByIds" />
+        <item itemvalue="Application.IdWorker" />
+        <item itemvalue="Application.SnowFlake" />
+        <item itemvalue="JUnit.LinkTest.testSaveLink" />
+        <item itemvalue="JUnit.PropertyUtilTest.testPropertyUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b530da09-e7a6-4490-9876-213aef4c563b" name="默认更改列表" comment="" />
+      <created>1587444605699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587444605699</updated>
+      <workItem from="1587444610405" duration="679000" />
+      <workItem from="1587445305952" duration="15996000" />
+      <workItem from="1587467967321" duration="4080000" />
+      <workItem from="1587518304409" duration="14871000" />
+      <workItem from="1587566599636" duration="166000" />
+      <workItem from="1587632840977" duration="21006000" />
+      <workItem from="1587954863906" duration="11378000" />
+      <workItem from="1588045004421" duration="8288000" />
+      <workItem from="1588132231759" duration="18166000" />
+      <workItem from="1588309808283" duration="17032000" />
+      <workItem from="1588353386434" duration="531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化博客项目（idea）" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化博客项目（idea）" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="179" key="#SQL_Dialects" timestamp="1588048989336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="179" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1588048989336" />
+    <state x="1032" y="179" key="#SQL_Resolution_Scopes" timestamp="1588048875563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="179" key="#SQL_Resolution_Scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1588048875563" />
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588210394842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588210394842" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1587741780051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587741780051" />
+    <state x="1044" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588138296411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1044" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588138296411" />
+    <state x="787" y="379" width="367" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587459304609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="379" width="367" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1587459304609" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588144745353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588144745353" />
+    <state x="1117" y="283" key="#xdebugger.evaluate" timestamp="1587741701600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1117" y="283" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1587741701600" />
+    <state x="457" y="114" key="CommitChangelistDialog2" timestamp="1588353783796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="457" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588353783796" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588316477183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1588316477183" />
+    <state width="628" height="466" key="DebuggerActiveHint" timestamp="1588149006446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="628" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1588149006446" />
+    <state x="492" y="232" key="FileChooserDialogImpl" timestamp="1588353492458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="232" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588353492458" />
+    <state x="781" y="416" width="382" height="207" key="Github.CreateGistDialog" timestamp="1588068754734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="416" width="382" height="207" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588068754734" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.1.bottom" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.1.center" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.1.left" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.1.right" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.2.bottom" timestamp="1588353072333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072333" />
+    <state width="1877" height="275" key="GridCell.Tab.2.center" timestamp="1588353072333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072333" />
+    <state width="1877" height="275" key="GridCell.Tab.2.left" timestamp="1588353072332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072332" />
+    <state width="1877" height="275" key="GridCell.Tab.2.right" timestamp="1588353072333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588353072333" />
+    <state x="980" y="241" key="Maven.ArtifactSearchDialog" timestamp="1587460079481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="980" y="241" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587460079481" />
+    <state x="773" y="148" key="SettingsEditor" timestamp="1588353466235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588353466235" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1588133675546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1588133675546" />
+    <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1587463554808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="325" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587463554808" />
+    <state x="738" y="151" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1588313900442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="151" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588313900442" />
+    <state x="983" y="260" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588132991542">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="983" y="260" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1588132991542" />
+    <state x="1124" y="253" width="632" height="534" key="find.popup" timestamp="1588313570171">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1124" y="253" width="632" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588313570171" />
+    <state x="661" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1587969148560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587969148560" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587445286174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587445286174" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1588353479717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1588353479717" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/SwaggerTestController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/SwaggerTestController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/filters/LoginFilter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/realm/AdminRealm.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/AdminController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/AdminController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/interceptor/LoginInterceptor.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/aspect/RequestAspect.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/interceptor/LoginInterceptor.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/interceptor/LoginInterceptor.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/TypeServiceImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/kxingyi/blog/property/PropertyUtilTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/LinkController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/aspect/RequestAspect.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/LinkServiceImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/advice/BlogExceptionAdvice.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/controller/LinkController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/aspect/RequestAspect.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/service/impl/AboutServiceImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kxingyi/blog/utils/IdWorker.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="StringUtils.isNullOrEmpty(errMsg)" language="JAVA" />
+        <watch expression="request" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

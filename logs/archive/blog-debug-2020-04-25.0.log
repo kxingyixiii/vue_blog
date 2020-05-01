@@ -1,0 +1,296 @@
+2020-04-25 00:03:48.962 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:05:24.836 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:05:24.836 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:05:24.837 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:24.839 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:05:24.840 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:05:24.931 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:05:24.953 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:05:24.975 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:05:24.979 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 143
+2020-04-25 00:05:24.981 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"DAD5A2B4460E2B6AB21F7B9D49B6561F"},"msg":"操作成功！"}
+2020-04-25 00:05:24.985 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:24.988 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 143(Long), {"code":200,"data":{"token":"DAD5A2B4460E2B6AB21F7B9D49B6561F"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:24.995 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:05:41.673 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:05:41.674 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:05:41.685 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:05:41.686 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:05:41.689 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:05:41.706 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:05:41.707 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:05:41.710 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:05:41.711 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 38
+2020-04-25 00:05:41.711 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:05:41.714 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:41.715 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 38(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:41.719 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:05:56.999 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:05:57.000 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:05:57.000 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:05:57.001 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:05:57.001 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:05:57.014 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:05:57.014 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:05:57.017 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:05:57.017 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 18
+2020-04-25 00:05:57.023 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:05:57.027 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:05:57.029 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 18(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:05:57.032 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:00.239 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:00.240 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:00.241 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:00.245 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:00.246 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:00.248 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:00.248 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:06:00.249 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:00.252 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:00.253 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:00.257 DEBUG [http-nio-9000-exec-9]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:01.263 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:01.264 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:01.268 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:01.269 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:01.271 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:01.272 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:06:01.273 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:01.279 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:01.280 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:01.287 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:13.624 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:06:13.625 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:06:13.630 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:06:13.631 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:06:13.634 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:06:13.634 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 10
+2020-04-25 00:06:13.635 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:06:13.640 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:13.641 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 10(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:13.646 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:06:33.991 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:06:33.992 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:06:33.992 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:06:33.997 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:06:33.997 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:06:33.999 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:06:34.004 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:06:34.005 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:06:34.007 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:06:34.007 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 16
+2020-04-25 00:06:34.008 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:06:34.012 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:06:34.013 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 16(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:06:34.019 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:16.515 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:16.516 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:16.520 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:16.520 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:16.522 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:16.526 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:16.528 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 15
+2020-04-25 00:07:16.530 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:16.534 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:16.535 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 15(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:16.539 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:18.531 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:18.531 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:18.532 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:18.536 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:18.536 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:18.538 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:18.543 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:18.543 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:18.545 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:18.546 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 15
+2020-04-25 00:07:18.546 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:18.549 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:18.550 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 15(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:18.554 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:19.436 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:19.437 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:19.440 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:19.441 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:19.442 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:19.446 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:19.446 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:19.448 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:19.449 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 13
+2020-04-25 00:07:19.449 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:19.452 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:19.453 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 13(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:19.457 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:28.438 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:07:37.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:37.097 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:07:37.097 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:07:37.371 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:07:37.394 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:07:37.414 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:07:37.425 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 330
+2020-04-25 00:07:37.480 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"5EA7E4D7D33D3AAB299DF82E3C7BBFF4"},"msg":"操作成功！"}
+2020-04-25 00:07:37.484 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:37.487 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 330(Long), {"code":200,"data":{"token":"5EA7E4D7D33D3AAB299DF82E3C7BBFF4"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:37.492 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:07:42.163 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:07:42.164 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:07:42.164 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:07:42.175 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:07:42.176 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:07:42.178 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:07:42.200 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:07:42.200 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 40
+2020-04-25 00:07:42.203 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:07:42.207 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:07:42.208 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 40(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:07:42.212 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:08:13.858 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:08:13.859 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:08:13.860 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:08:17.045 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:08:17.062 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:08:17.102 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:08:56.194 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:08:56.195 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:08:56.197 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:08:56.198 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 43039
+2020-04-25 00:08:56.198 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:08:56.201 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:08:56.203 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 43039(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:08:56.207 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:11:48.197 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:11:48.198 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:11:48.199 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:11:55.583 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:11:55.597 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:11:55.634 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:13:49.131 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:13:49.131 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:13:49.133 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:13:49.134 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 122687
+2020-04-25 00:13:49.134 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:13:49.138 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:13:49.139 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 122687(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:13:49.144 DEBUG [http-nio-9000-exec-7]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:13:58.250 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:13:58.251 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:14:07.800 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:14:07.814 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:14:07.851 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:14:58.998 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:14:58.999 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: 1(Integer), 1(Integer), null
+2020-04-25 00:14:59.003 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 0
+2020-04-25 00:14:59.004 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 62016
+2020-04-25 00:14:59.004 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:14:59.008 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:14:59.009 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 62016(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:14:59.015 DEBUG [http-nio-9000-exec-8]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:15:02.178 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-25 00:15:26.057 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:15:26.058 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:15:26.059 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:15:26.459 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:15:26.480 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:15:26.506 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:15:26.518 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 1136
+2020-04-25 00:15:26.581 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"8732FFC181480AB016ABD189257A43B2"},"msg":"操作成功！"}
+2020-04-25 00:15:26.586 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:15:26.589 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 1136(Long), {"code":200,"data":{"token":"8732FFC181480AB016ABD189257A43B2"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:15:26.594 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:15:38.413 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/delete/89
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : DELETE
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.delete
+2020-04-25 00:15:38.414 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[89]
+2020-04-25 00:15:40.801 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type where type_id = ? 
+2020-04-25 00:15:40.816 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -==> Parameters: 89(Integer)
+2020-04-25 00:15:40.857 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.getById.debug:159 -<==      Total: 1
+2020-04-25 00:15:46.257 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==>  Preparing: update bl_type SET type_name = ?, enable = ?, deleted = ? where type_id = ? 
+2020-04-25 00:15:46.276 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -==> Parameters: ssssssss(String), 1(Integer), 1(Integer), 89(Integer)
+2020-04-25 00:15:46.302 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.TypeMapper.update.debug:159 -<==    Updates: 1
+2020-04-25 00:15:48.728 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 10874
+2020-04-25 00:15:48.728 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"msg":"删除成功！"}
+2020-04-25 00:15:48.732 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:15:48.733 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/delete/89(String), [89](String), 200(Integer), null, DELETE(String), 10874(Long), {"code":200,"msg":"删除成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:15:48.738 DEBUG [http-nio-9000-exec-5]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:16:00.876 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /type/getTypeForBack
+2020-04-25 00:16:00.876 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 0:0:0:0:0:0:0:1
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.TypeController.getTypeForBack
+2020-04-25 00:16:00.877 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)]
+2020-04-25 00:16:00.892 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==>  Preparing: select type_id, type_name, type_blog_count, enable, deleted from bl_type order by type_blog_count asc 
+2020-04-25 00:16:00.893 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -==> Parameters: 
+2020-04-25 00:16:00.896 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.TypeMapper.getAll.debug:159 -<==      Total: 3
+2020-04-25 00:16:00.896 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 20
+2020-04-25 00:16:00.901 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":1,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}
+2020-04-25 00:16:00.908 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:16:00.909 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /type/getTypeForBack(String), [Page(currentPage=1, pageSize=20, totalPage=0, totalCount=0, list=null, params={}, sortColumn=null, sortMethod=asc)](String), 200(Integer), null, POST(String), 20(Long), {"code":200,"data":[{"deleted":0,"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"c分类"},{"deleted":1,"enable":1,"typeBlogCount":0,"typeId":89,"typeName":"ssssssss"},{"deleted":0,"enable":1,"typeBlogCount":11111111,"typeId":6,"typeName":"java分类"}],"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-25 00:16:00.913 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:19:25.598 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:19:25.598 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 127.0.0.1
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:19:25.599 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123)]
+2020-04-25 00:19:25.604 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:19:25.604 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:19:25.606 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:19:25.613 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:19:25.614 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$e35071d3.login(<generated>)
+(String), POST(String), 0(Long), null, 127.0.0.1(String)
+2020-04-25 00:19:25.618 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-25 00:19:36.996 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -请求地址 : /admin/login
+2020-04-25 00:19:36.996 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:136 -请求方式 : POST
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -IP : 127.0.0.1
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:141 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-25 00:19:36.997 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:143 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)]
+2020-04-25 00:19:37.002 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-25 00:19:37.002 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-25 00:19:37.004 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-25 00:19:37.005 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAround:70 -耗时 : 9
+2020-04-25 00:19:37.005 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:104 -返回值：{"code":200,"data":{"token":"95B5FFEB6995C73F897BAE8303C37173"},"msg":"操作成功！"}
+2020-04-25 00:19:37.010 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-25 00:19:37.011 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 9(Long), {"code":200,"data":{"token":"95B5FFEB6995C73F897BAE8303C37173"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-04-25 00:19:37.015 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

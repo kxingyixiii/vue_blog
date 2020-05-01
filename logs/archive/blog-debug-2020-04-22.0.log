@@ -1,0 +1,283 @@
+2020-04-22 09:41:22.414 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 09:41:42.261 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 09:41:42.423 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 09:41:42.446 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 10:37:31.120 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 10:37:40.816 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 10:37:40.974 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 10:37:40.995 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 10:37:41.051 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 10:37:41.058 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 10:45:13.325 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:06:01.269 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:06:01.408 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:06:01.428 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:06:01.488 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:06:01.496 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:06:49.208 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:11:22.176 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:11:22.355 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:11:22.374 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:11:22.431 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:11:22.440 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:12:05.099 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:12:14.912 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:12:15.088 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:12:15.107 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:12:15.165 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:12:15.167 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 303(Long), {"code":200,"data":{"token":"382CDC9B429BC5925BFAED94CD5619CE"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String), null
+2020-04-22 11:12:15.224 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,? ) 
+2020-04-22 11:12:15.225 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 500(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'created_time' cannot be null
+### The error may involve com.kxingyi.blog.mapper.LogMapper.save-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'created_time' cannot be null
+; Column 'created_time' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'created_time' cannot be null
+	at com.kxingyi.blog.service.impl.LogServiceImpl.save(LogServiceImpl.java:33)
+	at com.kxingyi.blog.aspect.RequestAspect.doAfterReturning(RequestAspect.java:79)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$da3ff0b2.login(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'created_time' cannot be null
+(String), POST(String), 1587525135221(Long), {"code":200,"data":{"token":"382CDC9B429BC5925BFAED94CD5619CE"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String), null
+2020-04-22 11:13:51.912 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:14:08.687 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:14:08.846 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:14:08.865 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:14:08.925 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:14:08.928 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 273(Long), {"code":200,"data":{"token":"613726FBEB12F00B627179FF7CB12650"},"msg":"操作成功！"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:14:08.932 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:14:59.080 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:14:59.081 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:14:59.083 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:14:59.091 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:14:59.091 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=1232456)](String), 200(Integer), null, POST(String), 13(Long), {"code":500,"msg":"Submitted credentials for token [com.kxingyi.blog.token.UsernamePasswordToken - lby, rememberMe=false] did not match the expected credentials."}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:14:59.095 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:16:22.188 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:16:54.412 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:16:54.435 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:16:54.458 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:16:54.519 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:16:54.522 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=1232456)](String), 200(Integer), null, POST(String), 18799(Long), {"code":500,"msg":"Submitted credentials for token [com.kxingyi.blog.token.UsernamePasswordToken - lby, rememberMe=false] did not match the expected credentials."}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:16:54.527 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:18:16.558 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:23:24.485 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:23:26.937 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:23:28.784 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:24:32.247 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:24:32.360 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=1232456)](String), 500(Integer), org.apache.shiro.authc.IncorrectCredentialsException: Submitted credentials for token [com.kxingyi.blog.token.UsernamePasswordToken - lby, rememberMe=false] did not match the expected credentials.
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:46)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$fbd19572.login(<generated>)
+(String), POST(String), 1587525868396(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:24:32.404 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:28:20.782 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:28:38.209 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 11:28:38.389 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 11:28:38.410 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 11:28:38.419 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:28:38.422 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:51)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$ee2e6e4c.login(<generated>)
+(String), POST(String), 1587526118416(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:28:38.426 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:29:13.193 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:29:29.800 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 11:29:29.990 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:42)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b4a8eb45.login(<generated>)
+(String), POST(String), 1587526169750(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 11:29:29.996 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 11:36:03.534 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:37:16.459 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:37:49.029 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 11:40:29.087 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:08:54.147 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:09:45.342 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:11:31.184 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:14:40.309 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:16:48.563 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:17:20.957 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:19:10.367 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:19:52.024 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 12:19:52.048 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: lby(String)
+2020-04-22 12:19:52.069 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 1
+2020-04-22 12:19:52.078 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 12:19:52.081 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=lby, password=123456)](String), 200(Integer), null, POST(String), 161(Long), {"code":200,"data":{"token":"33AA01110F84D018F5074A4AC3C84461"},"msg":"操作成功！"}(String), 127.0.0.1(String)
+2020-04-22 12:19:52.087 DEBUG [http-nio-9000-exec-10]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 12:39:24.184 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:39:29.537 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:107 -请求地址 : /admin/login
+2020-04-22 12:39:29.537 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:108 -请求方式 : POST
+2020-04-22 12:39:29.538 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:111 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 12:39:29.540 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:113 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 12:39:29.540 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:115 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 12:39:29.716 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 12:39:29.915 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:42)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$7017fb9a.login(<generated>)
+(String), POST(String), 1587530369672(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 12:39:29.923 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 12:40:54.849 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:41:03.260 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:107 -请求地址 : /admin/login
+2020-04-22 12:41:03.260 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:108 -请求方式 : POST
+2020-04-22 12:41:03.260 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:111 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 12:41:03.261 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:113 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 12:41:03.262 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:115 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 12:41:03.373 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 12:41:03.537 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:42)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$906d4c85.login(<generated>)
+(String), POST(String), 1587530463341(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 12:41:03.543 DEBUG [http-nio-9000-exec-1]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 12:42:22.691 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 12:42:50.118 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:107 -请求地址 : /admin/login
+2020-04-22 12:42:50.119 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:108 -请求方式 : POST
+2020-04-22 12:42:50.119 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:111 -IP : 127.0.0.1
+2020-04-22 12:42:50.120 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:113 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 12:42:50.121 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:115 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=www, password=www)]
+2020-04-22 12:42:50.221 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 12:42:50.241 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: www(String)
+2020-04-22 12:42:50.259 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-22 12:42:50.274 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 12:42:50.277 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=www, password=www)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:51)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:60)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$1b6c1768.login(<generated>)
+(String), POST(String), 1587530570268(Long), null, 127.0.0.1(String)
+2020-04-22 12:42:50.281 DEBUG [http-nio-9000-exec-6]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 12:48:47.466 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:15:14.534 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:15:24.343 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:15:24.521 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.checkParams(RequestAspect.java:87)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:64)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$43fbdbb8.login(<generated>)
+(String), null, 0(Long), null, null
+2020-04-22 14:16:40.474 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:16:40.475 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.checkParams(RequestAspect.java:87)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:64)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$43fbdbb8.login(<generated>)
+(String), null, 0(Long), null, null
+2020-04-22 14:16:47.759 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:22:01.410 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:22:01.441 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), com.kxingyi.blog.exception.BusinessException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.checkParams(RequestAspect.java:87)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:64)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$75ad5c8e.login(<generated>)
+(String), null, 0(Long), null, null
+2020-04-22 14:25:08.198 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:25:18.971 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAround:72 -耗时 : 76
+2020-04-22 14:25:19.172 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:102 -返回值：{"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}
+2020-04-22 14:25:19.209 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:25:19.230 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, null, null, null, 76(Long), {"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}(String), null
+2020-04-22 14:25:19.287 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:25:19.289 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+### The error may involve com.kxingyi.blog.mapper.LogMapper.save-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+; Column 'log_url' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+	at com.kxingyi.blog.service.impl.LogServiceImpl.save(LogServiceImpl.java:33)
+	at com.kxingyi.blog.aspect.RequestAspect.doAfterReturning(RequestAspect.java:105)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$5f89e853.login(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+(String), null, 0(Long), {"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}(String), null
+2020-04-22 14:39:23.107 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAround:72 -耗时 : 0
+2020-04-22 14:39:23.108 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.doAfterReturning:102 -返回值：{"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}
+2020-04-22 14:39:23.113 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:39:23.114 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, null, null, null, 0(Long), {"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}(String), null
+2020-04-22 14:39:23.121 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:39:23.122 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+### The error may involve com.kxingyi.blog.mapper.LogMapper.save-Inline
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+; Column 'log_url' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+	at com.kxingyi.blog.service.impl.LogServiceImpl.save(LogServiceImpl.java:33)
+	at com.kxingyi.blog.aspect.RequestAspect.doAfterReturning(RequestAspect.java:105)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$5f89e853.login(<generated>)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'log_url' cannot be null
+(String), null, 0(Long), {"code":500,"msg":"数据验证失败：<br/>1. 用户名不能为空<br/>"}(String), null
+2020-04-22 14:43:27.600 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:43:42.126 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:131 -请求地址 : /admin/login
+2020-04-22 14:43:42.127 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:132 -请求方式 : POST
+2020-04-22 14:43:42.127 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 14:43:42.128 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:137 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 14:43:42.128 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 14:43:42.165 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 14:43:42.335 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: null
+2020-04-22 14:43:42.354 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-22 14:43:42.364 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:43:42.367 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$3fd4ab3e.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 14:43:42.373 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 14:44:48.283 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:45:22.834 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:131 -请求地址 : /admin/login
+2020-04-22 14:45:22.844 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:132 -请求方式 : POST
+2020-04-22 14:45:22.855 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 14:45:22.865 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:137 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 14:45:22.876 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 14:45:28.274 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 14:45:30.974 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: null
+2020-04-22 14:45:33.016 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-22 14:45:49.873 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:45:49.876 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$1355d0ef.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 14:45:49.881 DEBUG [http-nio-9000-exec-3]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 14:47:22.025 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:131 -请求地址 : /admin/login
+2020-04-22 14:47:22.028 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:132 -请求方式 : POST
+2020-04-22 14:47:22.029 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 14:47:22.029 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:137 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 14:47:22.030 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 14:47:22.035 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==>  Preparing: select id, name, header, signature, comment, username, password from bl_admin WHERE username = ? 
+2020-04-22 14:47:22.036 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -==> Parameters: null
+2020-04-22 14:47:22.038 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.AdminMapper.getByUsername.debug:159 -<==      Total: 0
+2020-04-22 14:47:22.046 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:47:22.047 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.BusinessException: 用户名或密码错误，请重新登陆
+	at com.kxingyi.blog.controller.AdminController.login(AdminController.java:49)
+	at com.kxingyi.blog.controller.AdminController$$FastClassBySpringCGLIB$$ec2eab6f.invoke(<generated>)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$1355d0ef.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 14:47:22.053 DEBUG [http-nio-9000-exec-4]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1
+2020-04-22 14:47:26.913 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:47:37.156 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:47:37.333 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), com.kxingyi.blog.exception.ParamsValidationException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.doBefore(RequestAspect.java:59)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$bc8528e7.login(<generated>)
+(String), null, 0(Long), null, null
+2020-04-22 14:48:18.850 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:49:15.223 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:49:17.966 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, null, null, 500(Integer), com.kxingyi.blog.exception.ParamsValidationException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.doBefore(RequestAspect.java:59)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$b201a606.login(<generated>)
+(String), null, 0(Long), null, null
+2020-04-22 14:53:01.604 DEBUG [main]com.kxingyi.blog.VueBlogApplication.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-22 14:53:20.956 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:131 -请求地址 : /admin/login
+2020-04-22 14:53:20.956 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:132 -请求方式 : POST
+2020-04-22 14:53:20.956 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:135 -IP : 0:0:0:0:0:0:0:1
+2020-04-22 14:53:20.957 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:137 -方法 : com.kxingyi.blog.controller.AdminController.login
+2020-04-22 14:53:20.958 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.aspect.RequestAspect.printRequestLog:139 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)]
+2020-04-22 14:53:21.076 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==>  Preparing: insert into bl_log ( log_id, log_url, log_params, log_status, log_message, log_method, log_time, log_result, log_ip, created_time ) values ( ?,?,?,?,?,?,?,?,?,now() ) 
+2020-04-22 14:53:21.259 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -==> Parameters: null, /admin/login(String), [Admin(id=null, name=null, header=null, signature=null, comment=null, username=null, password=1232456)](String), 500(Integer), com.kxingyi.blog.exception.ParamsValidationException: 数据验证失败：<br/>1. 用户名不能为空<br/>
+	at com.kxingyi.blog.aspect.RequestAspect.doBefore(RequestAspect.java:61)
+	at com.kxingyi.blog.aspect.RequestAspect.doAround(RequestAspect.java:68)
+	at com.kxingyi.blog.controller.AdminController$$EnhancerBySpringCGLIB$$f83f1704.login(<generated>)
+(String), POST(String), 0(Long), null, 0:0:0:0:0:0:0:1(String)
+2020-04-22 14:53:21.266 DEBUG [http-nio-9000-exec-2]com.kxingyi.blog.mapper.LogMapper.save.debug:159 -<==    Updates: 1

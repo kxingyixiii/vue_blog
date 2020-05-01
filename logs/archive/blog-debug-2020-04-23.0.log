@@ -1,0 +1,4 @@
+2020-04-23 17:28:38.310 DEBUG [main]com.kxingyi.blog.type.TypeTest.logStarting:56 -Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-04-23 17:28:46.539 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.insert.debug:159 -==>  Preparing: insert into bl_type(type_name) values( ? ) 
+2020-04-23 17:28:46.574 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.insert.debug:159 -==> Parameters: java分类(String)
+2020-04-23 17:28:46.585 DEBUG [main]com.kxingyi.blog.mapper.TypeMapper.insert.debug:159 -<==    Updates: 1

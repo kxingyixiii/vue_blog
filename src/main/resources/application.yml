@@ -1,0 +1,8 @@
+server:
+  port: 9000
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.kxingyi
+spring:
+  profiles:
+    active: dev

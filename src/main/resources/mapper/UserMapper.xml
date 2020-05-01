@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kxingyi.blog.mapper.UserMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kxingyi.blog.pojo.User">
+        <id column="user_id" property="userId"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="sex" property="sex"/>
+        <result column="header" property="header"/>
+        <result column="nickname" property="nickname"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="version" property="version"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        user_id, username, password, name, sex, header, nickname, user_email, created_time, update_time, version, deleted
+    </sql>
+    <insert id="save">
+        insert into bl_user
+    </insert>
+    <update id="update">
+        update bl_user
+        set version = version + 1, update_time = now()
+        <if test="name != null and name !=  ''">
+            ,name = #{name}
+        </if>
+        <if test="sex != null and sex !=  ''">
+            ,sex = #{sex}
+        </if>
+        <if test="header != null and header !=  ''">
+            ,header = #{header}
+        </if>
+        <if test="nickname != null and nickname !=  ''">
+            ,nickname = #{nickname}
+        </if>
+        <if test="userEmail != null and userEmail !=  ''">
+            ,userEmail = #{userEmail}
+        </if>
+        <if test="deleted != null and deleted !=  ''">
+            ,deleted = #{deleted}
+        </if>
+        where user_id = #{userId}
+    </update>
+    <update id="updateInfo">
+        update bl_user
+        set version = version + 1, update_time = now()
+        <if test="name != null and name !=  ''">
+            ,name = #{name}
+        </if>
+        <if test="sex != null and sex !=  ''">
+            ,sex = #{sex}
+        </if>
+        <if test="header != null and header !=  ''">
+            ,header = #{header}
+        </if>
+        <if test="nickname != null and nickname !=  ''">
+            ,nickname = #{nickname}
+        </if>
+        <if test="userEmail != null and userEmail !=  ''">
+            ,userEmail = #{userEmail}
+        </if>
+        <if test="password != null and password !=  ''">
+            ,password = #{password}
+        </if>
+        where user_id = #{userId}
+    </update>
+    <delete id="deleteById">
+        update  bl_user
+        set deleted = 1
+        where user_id = #{userId}
+    </delete>
+    <select id="getById" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include>
+        from bl_user
+        where user_id = #{userId}
+    </select>
+    <select id="getByPage" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include>
+        from bl_user
+        <where>
+            <if test="params.name != null and params.name != ''">
+                and name like CONCAT('%',#{params.name},'%')
+            </if>
+            <if test="params.username != null and params.username != ''">
+                and username like CONCAT('%',#{params.username},'%')
+            </if>
+            <if test="params.nickname != null and params.nickname != ''">
+                and nickname  like CONCAT('%',#{params.nickname},'%')
+            </if>
+            <if test="params.userEmail != null and params.userEmail != ''">
+                and user_email like CONCAT('%',#{params.userEmail},'%')
+            </if>
+            <if test="params.enable != null and params.enable != ''">
+                and enable = #{params.enable}
+            </if>
+            <if test="params.deleted != null and params.deleted != ''">
+                and deleted = #{params.deleted}
+            </if>
+            <if test="params.header != null and params.header != ''">
+                and header = #{params.header}
+            </if>
+        </where>
+        <if test="sortColumn != null and sortColumn != ''">
+            order by ${sortColumn} ${sortMethod}
+        </if>
+        limit #{index},#{pageSize}
+    </select>
+    <select id="getByIds" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include>
+        from bl_user
+        <foreach collection="list" open="where user_id in (" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </select>
+    <select id="getByUsername" resultMap="BaseResultMap">
+        select user_id, username, name, sex, header, nickname, user_email
+        from  bl_user
+        where username = #{userNmae}
+    </select>
+    <select id="getCountByPage" resultType="java.lang.Integer">
+        select count(*)
+        from bl_user
+        <where>
+            <if test="params.name != null and params.name != ''">
+                and name like CONCAT('%',#{params.name},'%')
+            </if>
+            <if test="params.username != null and params.username != ''">
+                and username like CONCAT('%',#{params.username},'%')
+            </if>
+            <if test="params.nickname != null and params.nickname != ''">
+                and nickname  like CONCAT('%',#{params.nickname},'%')
+            </if>
+            <if test="params.userEmail != null and params.userEmail != ''">
+                and user_email like CONCAT('%',#{params.userEmail},'%')
+            </if>
+            <if test="params.enable != null and params.enable != ''">
+                and enable = #{params.enable}
+            </if>
+            <if test="params.deleted != null and params.deleted != ''">
+                and deleted = #{params.deleted}
+            </if>
+            <if test="params.header != null and params.header != ''">
+                and header = #{params.header}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>

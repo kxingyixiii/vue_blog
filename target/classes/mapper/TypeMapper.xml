@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kxingyi.blog.mapper.TypeMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.kxingyi.blog.pojo.Type">
+        <id column="type_id" property="typeId"/>
+        <result column="type_name" property="typeName"/>
+        <result column="type_blog_count" property="typeBlogCount"/>
+        <result column="enable" property="enable"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        type_id, type_name, type_blog_count, enable, deleted
+    </sql>
+    <insert id="insert" parameterType="com.kxingyi.blog.pojo.Type">
+    insert into bl_type(type_name) values(
+            #{typeName}
+        )
+    </insert>
+    <update id="update" parameterType="com.kxingyi.blog.pojo.Type">
+            update bl_type
+            <set>
+                <if test="typeName != null and typeName != ''">
+                    type_name = #{typeName},
+                </if>
+                <if test="typeBlogCount != null and typeBlogCount != ''">
+                    type_blog_count = #{typeBlogCount},
+                </if>
+                <if test="enable != null and enable != ''">
+                    enable = #{enable},
+                </if>
+                <if test="deleted != null and deleted != ''">
+                    deleted = #{deleted},
+                </if>
+            </set>
+            where type_id = #{typeId}
+    </update>
+    <delete id="deleteById" parameterType="integer">
+        delete from bl_type where type_id = #{param}
+    </delete>
+    <select id="getAll" resultMap="BaseResultMap" parameterType="com.kxingyi.blog.utils.model.Page"  >
+        select
+        <include refid="Base_Column_List"></include>
+        from bl_type
+        <where>
+            <if test="params.typeId != null and params.typeId !=''">
+                and type_id = #{typeId}
+            </if>
+            <if test="params.typeName != null and params.typeName !=''">
+                and type_name = #{typeName}
+            </if>
+            <if test="params.typeBlogCount != null and params.typeBlogCount !=''">
+                and type_blog_count = #{typeBlogCount}
+            </if>
+            <if test="params.enable != null and params.enable !=''">
+                and enable = #{enable}
+            </if>
+            <if test="params.deleted != null and params.deleted !=''">
+                and deleted = #{deleted}
+            </if>
+        </where>
+        order by
+        <choose>
+            <when test="sortColumn != null and sortColumn != ''">
+                ${sortColumn}
+            </when>
+            <otherwise>
+                type_blog_count
+            </otherwise>
+        </choose>
+        <choose>
+            <when test="sortMethod != null and sortMethod != ''">
+                ${sortMethod}
+            </when>
+            <otherwise>
+                desc
+            </otherwise>
+        </choose>
+
+    </select>
+    <select id="getTypeList" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"></include>
+        from bl_type
+        where deleted = 0 and enable = 1
+    </select>
+    <select id="getById" parameterType="integer" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include>
+        from bl_type
+        where type_id = #{typeId}
+    </select>
+    <select id="getByName" resultType="com.kxingyi.blog.pojo.Type">
+        select <include refid="Base_Column_List"></include>
+        from bl_type
+        where type_name = #{typeName}
+    </select>
+
+
+</mapper>
